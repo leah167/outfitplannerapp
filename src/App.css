@@ -51,6 +51,12 @@
   color: white;
 }
 
+#reset {
+  border-color: magenta;
+  background-color: darkgray;
+  color: white;
+}
+
 #top {
   border: 2px solid black;
 }

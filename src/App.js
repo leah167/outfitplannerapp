@@ -15,6 +15,10 @@ const App = () => {
     ];
   };
 
+  const refreshPage = () => {
+    window.location.reload(false);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -46,6 +50,10 @@ const App = () => {
             onClick={() => setDressCode("formal")}
           >
             Formal
+          </button>
+          <br />
+          <button className="button" id="reset" onClick={refreshPage}>
+            Reset
           </button>
           <br />
         </div>
